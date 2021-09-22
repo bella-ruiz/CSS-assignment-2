@@ -1,19 +1,27 @@
 /* you will add css rules for element selectors and IDs */
 * section.text {
-    background: #FFF;
-    max-width: 600px;
+    max-width: 500px;
     color: #000;
     font-size: 1.2rem;
     line-height:1.4rem;
-    margin: 3rem;
+    margin: 1rem;
+    margin-right: 3rem;
+    flex-basis: 0 1 100px;
+    flex-shrink: 1;
+    margin-right: 6rem;
+
+}
+
+* section.photo {
+    margin-left: 3rem;
 }
 
 * article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
 
 }
 
@@ -28,25 +36,21 @@ html {
 body {
     font-family: sans-serif;
     color: #FFF;
-    background: #000;
+    background:#fff;
     margin: 0 auto;
 }
 * img {
     max-width: 100%; /* DO NOT delete or change this line */
-    margin: 0 auto;
+    margin-top: 3rem;
 }
 
 * section {
-    max-width: 600px;
-    padding: 1rem;
-    padding-top: 2rem;
-    margin: 0 auto;
+    max-width: 500px;
+    padding: 1.5em;
+    margin: 0;
 }
 
 
-h2 {
-    text-align: center;
-}
 
 header {
     display: flex;
@@ -92,13 +96,12 @@ nav ul li {
    fff white
 */
 #cougar {
-    background:#B26219;
-    text-decoration: none;
+    background:#E17F23;
 
 }
 
 #lion {
-    background:#FFD5AE;
+    background:#EBD189;
 
 }
 
@@ -108,16 +111,15 @@ nav ul li {
 }
 
 
-
 /* --- link pseudo classes --- */
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
 a {
-    color: #379CB2;
+    color: #1C295E;
 }
 a:hover {
-    color: #82E8FF;
+    color: #003C8A;
 }
 
 header a {
